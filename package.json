@@ -1,0 +1,20 @@
+{
+  "name": "catalogo",
+  "version": "1.0.0",
+  "description": "Catalogo da loja do dasi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Carlos Eduardo Rodrigues de Sousa",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "sqlite": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

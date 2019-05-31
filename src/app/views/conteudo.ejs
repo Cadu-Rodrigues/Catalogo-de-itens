@@ -1,0 +1,20 @@
+<div class="container-fluid">
+		<div class="container">
+			<div class="row" id="principal">	
+				<% data.forEach(function(details) { %>
+					<div class="col-md-4">
+						<div class="card text-center mb-4 shadow-sm">
+							<img class="card-img-top" width="80px" height="300px" src="img/<%= details.url %>"/>
+							<div class="card-body">
+								<h2 class="card-title"><%=details.nomeItem%></h2>
+								<p class="card-text"><%=details.descricao%></p>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">DASI USP 2019</small>
+							</div>
+						</div>
+					</div>
+				<% }) %>
+		</div>
+    </div>
+</div>
