@@ -1,7 +1,7 @@
 # Catalogo de itens
 
 ## Sobre
-Código fonte feito em <a href="https://nodejs.org/en/download/package-manager/">node js</a> que representa um simples catálogo de itens de uma loja feito como exercício de aplicação 
+Código fonte criado em <a href="https://nodejs.org/en/download/package-manager/">node js</a> que representa um simples catálogo de itens de uma loja feito como exercício de aplicação 
 de conhecimentos para o DASI-USP
 ## Instalação
 Para executar esse projeto é necessária a instalação do node.js.
